@@ -4,11 +4,10 @@
 
 ### Welcome to <strong>Purpose and Impact GmbH</strong>!
 Our company was founded with a clear mission to launch projects that truly make a difference, helping people and the planet. <br>
-We believe in creating impactful solutions that foster positive change. 
-<br>
+We believe in creating impactful solutions that foster positive change. <br>
 <br>
 If you want to learn more, join us, or have any questions, don't hesitate to reach out at <a href="mailto:purposeandimpact2050@gmail.com">purposeandimpact2050@gmail.com</a>.<br>
-We look forward to making a difference together!</p>
+We look forward to making a difference together!
 <br>
 <br>
 **Stefan Steinberger** <br>
