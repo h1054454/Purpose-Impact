@@ -7,7 +7,7 @@ Our company was founded with a clear mission to launch projects that truly make 
 We believe in creating impactful solutions that foster positive change. <br>
 <br>
 If you want to learn more, join us, or have any questions, don't hesitate to reach out at <a href="mailto:purposeandimpact2050@gmail.com">purposeandimpact2050@gmail.com</a>.<br>
-We look forward to making a difference together!
+We look forward to making a difference together! <br>
 <br>
 <br>
 **Stefan Steinberger** <br>
