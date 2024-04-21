@@ -1,6 +1,8 @@
 <!-- This content will not appear in the rendered Markdown -->
-<img src="https://github.com/h1054454/Purpose-Impact/assets/34899624/03e918fe-d46c-474b-b5f1-0d8eaee5429e" alt="Purpose and Impact GmbH - logo" width="2000" style="display: block; margin-left: 2; margin-right: 2;"><br>
-<p>Welcome to <strong>Purpose and Impact GmbH</strong>! <br>
+<img src="https://github.com/h1054454/Purpose-Impact/assets/34899624/03e918fe-d46c-474b-b5f1-0d8eaee5429e" alt="Purpose and Impact GmbH - logo" width="2000" style="display: block; margin-left: 2; margin-right: 2;"> <br>
+---
+
+### <p>Welcome to <strong>Purpose and Impact GmbH</strong>! <br>
 <br>
 <!--
 ![Purpose and Impact GmbH - logo](https://github.com/h1054454/Purpose-Impact/assets/34899624/03e918fe-d46c-474b-b5f1-0d8eaee5429e) -->
