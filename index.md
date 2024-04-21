@@ -8,3 +8,11 @@ If you want to learn more, join us, or have any questions, don't hesitate to rea
 ![Purpose and Impact GmbH - logo](https://github.com/h1054454/Purpose-Impact/assets/34899624/03e918fe-d46c-474b-b5f1-0d8eaee5429e)
 
 
+<img src="[your-image-url.jpg](https://github.com/h1054454/Purpose-Impact/assets/34899624/03e918fe-d46c-474b-b5f1-0d8eaee5429e)" alt="Logo Purpose and Impact GmbH" class="resize-image">
+
+<style>
+  .resize-image {
+    width: 200px; /* Set the width as needed */
+    height: auto; /* This keeps the aspect ratio intact */
+  }
+</style>
