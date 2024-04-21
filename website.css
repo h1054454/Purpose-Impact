@@ -1,0 +1,8 @@
+<img src="your-image-url.jpg" alt="Logo" class="resize-image">
+
+<style>
+  .resize-image {
+    width: 200px; /* Set the width as needed */
+    height: auto; /* This keeps the aspect ratio intact */
+  }
+</style>
