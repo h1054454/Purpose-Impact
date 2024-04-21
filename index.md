@@ -4,9 +4,8 @@
 ---
 
 ### Welcome to <strong>Purpose and Impact GmbH</strong>! <br>
-<br>
 <!--
-![Purpose and Impact GmbH - logo](https://github.com/h1054454/Purpose-Impact/assets/34899624/03e918fe-d46c-474b-b5f1-0d8eaee5429e) -->
+![Purpose and Impact GmbH - logo](https://github.com/h1054454/Purpose-Impact/assets/34899624/03e918fe-d46c-474b-b5f1-0d8eaee5429e) --> <br>
 
 Our company was founded with a clear mission to launch projects that truly make a difference, helping people and the planet. <br>
 We believe in creating impactful solutions that foster positive change. 
