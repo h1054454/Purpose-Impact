@@ -7,6 +7,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        function sendEmail() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var interest = document.getElementById('interest').value;
+            var message = document.getElementById('message').value;
+
+            if (!name || !email) {
+                alert('Please fill in your name and email.');
+                return;
+            }
+
+            var subject = 'New inquiry from ' + name;
+            var body = 'Name: ' + name + '\nEmail: ' + email + '\nInterest: ' + interest + '\n\nMessage:\n' + message;
+
+            window.location.href = 'mailto:purposeandimpact2050@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+        }
+    </script>
     <style>
         * {
             margin: 0;
@@ -636,7 +654,8 @@
                     <label for="message">Message (optional)</label>
                     <textarea id="message" name="Message" placeholder="Tell us briefly how we can help you..."></textarea>
                 </div>
-                <button type="submit" class="submit-btn">Request Appointment</button>
+                <button type="button" class="submit-btn" onclick="sendEmail()">Request Appointment</button>
+                <p style="margin-top: 1rem; font-size: 0.8125rem; color: var(--gray);">Or email us directly: <a href="mailto:purposeandimpact2050@gmail.com">purposeandimpact2050@gmail.com</a></p>
             </form>
         </div>
     </section>
