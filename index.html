@@ -7,24 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-        function sendEmail() {
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var interest = document.getElementById('interest').value;
-            var message = document.getElementById('message').value;
-
-            if (!name || !email) {
-                alert('Please fill in your name and email.');
-                return;
-            }
-
-            var subject = 'New inquiry from ' + name;
-            var body = 'Name: ' + name + '\nEmail: ' + email + '\nInterest: ' + interest + '\n\nMessage:\n' + message;
-
-            window.location.href = 'mailto:purposeandimpact2050@gmail.com';
-        }
-    </script>
     <style>
         * {
             margin: 0;
@@ -634,7 +616,8 @@
             <p class="section-subtitle">Schedule a call today. We look forward to hearing from you!</p>
 
             <div class="contact-form" style="text-align: center;">
-                <a href="mailto:purposeandimpact2050@gmail.com" class="submit-btn" style="display: inline-block; text-decoration: none;">Request Appointment</a>
+                <p style="margin-bottom: 1.5rem; color: var(--gray);">Click the button below to send us an email:</p>
+                <a href="mailto:purposeandimpact2050@gmail.com" style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%); color: white; padding: 1rem 2rem; border-radius: 12px; text-decoration: none; font-weight: 600; display: inline-block;">📧 Request Appointment</a>
                 <p style="margin-top: 1.5rem; font-size: 0.9375rem; color: var(--gray);">Or email us directly: <a href="mailto:purposeandimpact2050@gmail.com" style="color: var(--primary);">purposeandimpact2050@gmail.com</a></p>
             </div>
         </div>
