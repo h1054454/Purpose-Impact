@@ -615,18 +615,18 @@
             <h2 class="section-title">Book Your Free 30-Minute Consultation</h2>
             <p class="section-subtitle">Schedule a call today. We look forward to hearing from you!</p>
 
-            <form class="contact-form" id="contactForm">
+            <form class="contact-form" action="mailto:purposeandimpact2050@gmail.com" method="post" enctype="text/plain">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="Name" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="Email" required>
                 </div>
                 <div class="form-group">
                     <label for="interest">Interested in</label>
-                    <select id="interest" name="interest">
+                    <select id="interest" name="Interest">
                         <option value="Housing in Graz">Housing in Graz</option>
                         <option value="Research to Market">Research to Market</option>
                         <option value="Both">Both</option>
@@ -634,27 +634,10 @@
                 </div>
                 <div class="form-group">
                     <label for="message">Message (optional)</label>
-                    <textarea id="message" name="message" placeholder="Tell us briefly how we can help you..."></textarea>
+                    <textarea id="message" name="Message" placeholder="Tell us briefly how we can help you..."></textarea>
                 </div>
                 <button type="submit" class="submit-btn">Request Appointment</button>
             </form>
-        </div>
-    </section>
-
-    <script>
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var interest = document.getElementById('interest').value;
-            var message = document.getElementById('message').value;
-
-            var subject = encodeURIComponent('New inquiry from ' + name);
-            var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nInterest: ' + interest + '\n\nMessage:\n' + message);
-
-            window.location.href = 'mailto:purposeandimpact2050@gmail.com?subject=' + subject + '&body=' + body;
-        });
-    </script>
         </div>
     </section>
 
